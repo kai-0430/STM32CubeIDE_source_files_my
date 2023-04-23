@@ -6,7 +6,7 @@
  *        Date: Apr 15, 2023
  */
 
-#include "../../Source/Inc/temperature_sensor.h"
+#include "temperature_sensor.h"
 
 //extern I2C_HandleTypeDef hi2c1;
 
