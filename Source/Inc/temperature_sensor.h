@@ -29,7 +29,7 @@ public:
 	temperature_sensor(I2C_HandleTypeDef* hi2c_pointer, uint8_t address);
 	bool init();
 	bool is_ready();
-	void set_count();
+	void set_continuous();
 	float get_temperature();
 };
 
