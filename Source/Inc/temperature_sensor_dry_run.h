@@ -33,7 +33,7 @@ public:
 	}
 	bool init(){return 1;}
 	bool is_ready(){return 1;}
-	void set_count(){return;}
+	void set_continuous(){return;}
 	float get_temperature(){return 25.4;}
 };
 
