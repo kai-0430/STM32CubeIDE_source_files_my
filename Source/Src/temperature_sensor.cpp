@@ -40,7 +40,7 @@ bool temperature_sensor::is_ready()
 	return rv == HAL_OK;
 }
 
-void temperature_sensor::set_continous()
+void temperature_sensor::set_continuous()
 {
 	uint8_t txbuff = 0x3C;
 	rv = HAL_I2C_Mem_Write(hi2c_p, addr, 0x04, I2C_MEMADD_SIZE_8BIT, &txbuff, 1, 10);
